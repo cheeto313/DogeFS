@@ -8,6 +8,8 @@ Such port. Very iNode
 
 class Inode {
 	public:
+		Inode();
+		~Inode();
 		// size of an inode in bytes
 		int SIZE = 64; 
 		int flags;
