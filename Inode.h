@@ -1,6 +1,6 @@
 /*
 Devan Tatum
-Such port. Very iNode
+Such port. Very iNode.
 */
 
 #ifndef
@@ -14,8 +14,10 @@ class Inode {
 		int SIZE = 64; 
 		int flags;
 		int owner;
-		int fileSize;
+		int getFileSize();
 		int pointer[13];
+	private:
+		void setFileSize(int);
 };
 
 #endif

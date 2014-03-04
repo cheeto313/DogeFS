@@ -1,6 +1,6 @@
 /*
 Devan Tatum
-Very port. Much intetface. Amaze FS project.
+Very port. Much interface. Amaze FS project.
 Such Virtual. Wow.
 */
 
