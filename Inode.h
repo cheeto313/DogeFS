@@ -6,6 +6,8 @@ Such port. Very iNode Amaze.
 
 #ifndef
 #define INODE_H
+#include <vector>
+#include <iostream>
 
 using namespace std;
 
