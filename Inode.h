@@ -4,7 +4,7 @@ Neil Turnley
 Such port. Very iNode Amaze.
 */
 
-#ifndef
+#ifndef INODE_H
 #define INODE_H
 #include <vector>
 #include <iostream>
