@@ -3,7 +3,11 @@
 
 #include "FileSystem.h"
 
-FileSystem::FileSystem(){}
+SuperBlock sBlock;
+
+FileSystem::FileSystem(){
+
+}
 
 //takes in the number of files that the disk should hold.
 void FileSystem::formatDisk(int size, int iSize){
