@@ -4,9 +4,11 @@ int diskSize = NULL;
 int iSize = NULL;
 int freeSize = NULL;
 
-//Takes in a disk size parameter for the superblock
-SuperBlock::SuperBlock(int d){
-	this->diskSize = d;
+//diskSize, iSize, freelist 
+SuperBlock::SuperBlock(int ds, int is, int fl){
+	this->diskSize = ds;
+	this->iSize = is;
+	this->freeSize = fl;
 }
 
 int getSize(){

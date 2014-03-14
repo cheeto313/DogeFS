@@ -3,7 +3,7 @@
 
 class SuperBlock{
 	public:		
-		SuperBlock();
+		SuperBlock(int, int, int);
 		~SuperBlock();
 		int getSize();		//return number of blocks on fs
 		int getIsize();		//return number index blocks
