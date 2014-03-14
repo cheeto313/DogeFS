@@ -1,7 +1,6 @@
 /*
 Devan Tatum
 Very port. Much interface. Amaze FS project.
-Such Virtual. Wow.
 */
 
 #ifdef FILESYSTEM_H

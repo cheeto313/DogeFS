@@ -8,7 +8,10 @@ class SuperBlock{
 		int getSize();		//return number of blocks on fs
 		int getIsize();		//return number index blocks
 		int getFreeList();	//return first block of the free list
-	//private:
+	private:
+		int diskSize;
+		int iSize;
+		int freeList;
 };
 
 #endif
