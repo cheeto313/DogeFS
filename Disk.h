@@ -14,14 +14,19 @@ class Disk{
 		Disk();
 		~Disk();
 		void read(int, byte[]);
-		void read(int, SuperBlock);
+		void stop(bool);
+	/*	void read(int, SuperBlock);
 		void read(int, InodeBlock ;
 		void read(int, IndirectBlock);
 		void write(int, byte[]);
 		void write(int, SuperBlock);
 		void write(int, InodeBlock);
-		void write(int, IndirectBlock);
+		void write(int, IndirectBlock);*/
+		//uncomment above when/if the datatypes are create (eg Superblock)
 		void stop();
+
+	private:
+		bool validate(int);
 };
 
 #endif

@@ -11,16 +11,16 @@ class FileSystem {
 	public:
 		FileSystem();
 		~FileSystem();
-		virtual int formatDisk(int, int); 
-		virtual int shutdown();
-		virtual int create();
-		virtual int open(int);
-		virtual int inumber(int);
-		virtual int read(int, byte[]);
-		virtual int write(int, byte[]);
-		virtual int seek(int, int, int); 
-		virtual int close(int);
-		virtual int delete(int);
+		int formatDisk(int, int); 
+		int shutdown();
+		int create();
+		int open(int);
+		int inumber(int);
+		int read(int, byte[]);
+		int write(int, byte[]);
+		int seek(int, int, int); 
+		int close(int);
+		int delete(int);
 };
 
 #endif

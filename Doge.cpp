@@ -13,7 +13,6 @@ using std::cin
 
 int main(int argc, char* argv[]){
 
-
 	/*
 		Steps in the system
 			1. Create file
