@@ -6,7 +6,7 @@ Very Disk, such rough port. Wow.
 //ADD INCLUDES HERE FOR CUSTOM OBJECTS BELOW
 //ELSE EVERYTHING WILL BREAK YO
 
-#ifndef
+#ifndef PAGETABLE_H
 #define DISK_H
 
 class Disk{

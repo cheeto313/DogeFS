@@ -4,8 +4,8 @@ Very port. Much interface. Amaze FS project.
 Such Virtual. Wow.
 */
 
-#ifdef
-#define INODE_H
+#ifdef FILESYSTEM_H
+#define FILESYSTEM_H
 
 class FileSystem {
 	public:

@@ -1,5 +1,5 @@
-#ifndef
-#define DISK_H
+#ifndef	SUPERBLOCK_H
+#define SUPERBLOCK_H
 
 class SuperBlock{
 	public:		
